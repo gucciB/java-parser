@@ -193,9 +193,6 @@ mvn test -Dtest=AppTest
 # Run the application
 mvn exec:java
 
-# Run with different main class
-mvn exec:java -Dexec.mainClass="javaparser.test.extractor.AppWithCsv"
-
 # Package as JAR
 mvn package
 
