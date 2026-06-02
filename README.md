@@ -214,20 +214,6 @@ String dirPath = "PATH/TO/PROJECT";  // Directory containing Java files to analy
 String xlsxFile = "PATH/TO/SAVE/FILE/methods.xlsx";  // Output Excel file path
 ```
 
-### AppWithCsv.java (CSV + Excel export)
-Edit `app/src/main/java/javaparser/test/extractor/AppWithCsv.java` lines 32-34:
-```java
-String dirPath = "/path/to/java/project";  // Directory to scan
-String csvFile = "/path/to/output/methods.csv";  // Output CSV file
-String xlsxFile = "/path/to/output/methods.xlsx";  // Output Excel file
-```
-
-### MethodExtractor.java (Console output)
-Edit `app/src/main/java/javaparser/test/extractor/MethodExtractor.java` line 13:
-```java
-String filePath = "/path/to/single/JavaFile.java";  // Single file to analyze
-```
-
 ## Available Main Classes
 
 The project contains three main classes with different functionality:
