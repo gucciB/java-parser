@@ -24,7 +24,6 @@ A Java-based tool that uses JavaParser to extract method metadata from Java code
 
 - **All main classes have hardcoded file paths that MUST be updated before running**
 - **Performance Warning**: Excel export auto-resizes columns on every row insertion, which can be slow for large codebases
-- **Known Issue**: Variable name typo `accesModifiers` (missing 's') exists throughout the codebase
 - **Testing**: Only one test exists (greeting message verification), no tests for parsing functionality
 
 ## Project Setup
